@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#Dashboard Application
 
-## Getting Started
+##Project Overview
+This project is a dashboard application built using Next.js, which displays analytics and statistics based on user-defined time frames. It features interactive charts powered by Chart.js and React-Chartjs-2, providing insights into key metrics such as investment, profit, total sales,views,clicks,conversion rate and more.
 
-First, run the development server:
+#Instructions to Set Up and Run the Project Locally
+To set up and run this project locally, follow these steps:
+
+1.Clone the Repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Alex0715/dashboard.git
+cd dashboard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.Install Dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3.Run the Application: From the root of the project, run the following command to start :
 
-## Learn More
+```bash
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+4.Access the Application: Open your browser and navigate to http://localhost:3000 to view the dashboard.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#Libraries and Tools Used
+##Frontend:
+###Next.js
+###Chart.js
+###React-Chartjs-2
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+##Backend:
+###Next.js API routes for handling backend logic.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#AI Tools Used
+##Cursor: Used for code navigation and understanding project structure.
+##ChatGPT: Assisted with small fixes and provided guidance on best practices during development.
