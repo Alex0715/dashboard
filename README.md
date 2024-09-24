@@ -45,6 +45,6 @@ npm run start
 
 # AI Tools Used
 
-## Cursor: Used for code navigation and understanding project structure.
+### Cursor: Used for code navigation and understanding project structure.
 
-## ChatGPT: Assisted with small fixes and provided guidance on best practices during development.
+### ChatGPT: Assisted with small fixes and provided guidance on best practices during development.
