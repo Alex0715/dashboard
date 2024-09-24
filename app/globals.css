@@ -16,8 +16,10 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* background: linear-gradient(to bottom, #ffffff 60%, #eaa9a8 40%); */
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  height: 100vh;
+  margin: 0;
 }
 
 @layer utilities {
