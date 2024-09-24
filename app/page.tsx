@@ -61,9 +61,7 @@ const HomePage = () => {
           "6 months": 3,
         }[timeRange];
 
-        const response = await axios.get(
-          `http://localhost:5001/api/dashboard?time=${timeParam}`
-        );
+        const response = await axios.get(`/api/dashboard?time=${timeParam}`);
 
         setInvestment(response.data.dashboard.investment);
         setProfit(response.data.dashboard.profit);
