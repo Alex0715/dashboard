@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({
         </label>
         <select
           value={timeRange}
-          onChange={(e) => setTimeRange(e.target.value)} // This updates the timeRange state
+          onChange={(e) => setTimeRange(e.target.value)}
           className="p-2 bg-white border border-gray-300 rounded-lg text-black"
         >
           {filterOptions.map((option) => (
